@@ -1,0 +1,23 @@
+{
+  "name": "tech-week-eda",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "description": "Hands-on project demonstrating how Event-Driven Architecture works with GCP Pub/Sub",
+  "author": "Guilherme Vieira de Paiva",
+  "packageManager": "yarn@4.1.1",
+  "scripts": {
+    "lint": "eslint .",
+    "build": "tsc",
+    "start": "node src/index.js",
+    "dev": "nodemon --ext js,html src/index.js"
+  },
+  "devDependencies": {
+    "eslint": "^9.0.0",
+    "nodemon": "^3.1.0"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.19.2"
+  }
+}
