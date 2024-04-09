@@ -10,7 +10,9 @@
     "lint": "eslint .",
     "build": "tsc",
     "start": "node src/index.js",
-    "dev": "nodemon --ext js,html src/index.js"
+    "start:consumer": "node src/consumer.js",
+    "dev": "nodemon --ext js,html src/index.js",
+    "dev:consumer": "nodemon src/consumer.js"
   },
   "devDependencies": {
     "eslint": "^9.0.0",
