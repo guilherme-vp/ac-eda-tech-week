@@ -30,8 +30,7 @@ const RAW_RUNTIME_STATE =
           ["cors", "npm:2.8.5"],\
           ["eslint", "npm:9.0.0"],\
           ["express", "npm:4.19.2"],\
-          ["nodemon", "npm:3.1.0"],\
-          ["typescript", "patch:typescript@npm%3A5.4.4#optional!builtin<compat/typescript>::version=5.4.4&hash=5adc0c"]\
+          ["nodemon", "npm:3.1.0"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -3306,8 +3305,7 @@ const RAW_RUNTIME_STATE =
           ["cors", "npm:2.8.5"],\
           ["eslint", "npm:9.0.0"],\
           ["express", "npm:4.19.2"],\
-          ["nodemon", "npm:3.1.0"],\
-          ["typescript", "patch:typescript@npm%3A5.4.4#optional!builtin<compat/typescript>::version=5.4.4&hash=5adc0c"]\
+          ["nodemon", "npm:3.1.0"]\
         ],\
         "linkType": "SOFT"\
       }]\
@@ -3390,15 +3388,6 @@ const RAW_RUNTIME_STATE =
           ["type-is", "npm:1.6.18"],\
           ["media-typer", "npm:0.3.0"],\
           ["mime-types", "npm:2.1.35"]\
-        ],\
-        "linkType": "HARD"\
-      }]\
-    ]],\
-    ["typescript", [\
-      ["patch:typescript@npm%3A5.4.4#optional!builtin<compat/typescript>::version=5.4.4&hash=5adc0c", {\
-        "packageLocation": "../../../../../../C:/Users/Gui/AppData/Local/Yarn/Berry/cache/typescript-patch-caac36e033-10c0.zip/node_modules/typescript/",\
-        "packageDependencies": [\
-          ["typescript", "patch:typescript@npm%3A5.4.4#optional!builtin<compat/typescript>::version=5.4.4&hash=5adc0c"]\
         ],\
         "linkType": "HARD"\
       }]\

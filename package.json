@@ -17,6 +17,7 @@
     "nodemon": "^3.1.0"
   },
   "dependencies": {
+    "@google-cloud/pubsub": "^4.3.3",
     "cors": "^2.8.5",
     "express": "^4.19.2"
   }
